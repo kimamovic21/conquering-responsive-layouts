@@ -1,0 +1,58 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.hero { /*<div class="hero">*/
+  padding: 100px 0;
+  background-color: #23424A;
+  color: #fff;
+  /*border: 2px solid red;*/
+}
+
+.container { /*<div class="container">*/
+  width: 80%; /*za sirinu sadrzaja elemenata unutar div-a koristimo procente*/
+  margin: 0 auto;
+  max-width: 1100px; /*koristimo fiksnu jedinicu kao piksel*/
+  /*border: 2px solid yellow;*/
+}
+
+/*.hero p {
+  width: 50%;
+}*/
+
+.hero__text { /*<div class="hero__text">*/
+  /*dodajemo novi div u kojem stiliziramo sirinu tekst unutar div-a*/
+  width: 60%;
+ /* border: 1px solid pink;*/
+}
+
+.hero p {
+  margin-bottom: 3em;
+}
+
+.btn { /*<a href="#" class="btn">*/
+  display: inline-block;
+  background-color: #38cfd9;
+  padding: .75em 2em;
+  border-radius: 100px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #23424A;
+  font-weight: 900;
+}
+
+.btn:hover
+.btn:focus {
+  opacity: .75;
+}
+
